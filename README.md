@@ -29,13 +29,13 @@ pip install opencv-python numpy
 
 ## Code Explanation
 
-.The program initializes a video capture object (cap) to capture video     from the default camera (cv2.VideoCapture(0)).
-.It uses a named window called 'Result' to display the output.
-.Mouse events are handled using the cv2.setMouseCallback function. Left-clicking sets the initial and final points of the bounding box, and right-clicking cancels the selection.
-.The initialize function is responsible for setting up the Region of Interest (ROI) for tracking using the CamShift algorithm.
-.The main loop continuously reads frames from the video stream, converts them to HSV format, and performs object tracking using the CamShift algorithm.
-.The tracked object's bounding box is drawn on the frame using cv2.polylines.
-.Pressing 'q' terminates the program.
+* The program initializes a video capture object (cap) to capture video     from the default camera (cv2.VideoCapture(0)).
+* It uses a named window called 'Result' to display the output.
+* Mouse events are handled using the cv2.setMouseCallback function. Left-clicking sets the initial and final points of the bounding box, and right-clicking cancels the selection.
+* The initialize function is responsible for setting up the Region of Interest (ROI) for tracking using the CamShift algorithm.
+* The main loop continuously reads frames from the video stream, converts them to HSV format, and performs object tracking using    the CamShift algorithm.
+* The tracked object's bounding box is drawn on the frame using cv2.polylines.
+* Pressing `q` terminates the program.
 
 
 ## Notes
@@ -43,4 +43,4 @@ pip install opencv-python numpy
 Ensure your camera is working and accessible.
 The program may need adjustments based on your specific use case and the characteristics of the objects you want to track.
 
-![Alt Text](animation.gif.gif)
+![Alt Text](https://imgur.com/IKVnYWK)
