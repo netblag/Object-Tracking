@@ -43,4 +43,4 @@ pip install opencv-python numpy
 Ensure your camera is working and accessible.
 The program may need adjustments based on your specific use case and the characteristics of the objects you want to track.
 
-![demo ](https://gist.github.com/netblag/d7d4bb2a96b687a9eb0145639a4a89c7?permalink_comment_id=4854416#gistcomment-4854416)
+![demo ](https://gist.github.com/netblag/d7d4bb2a96b687a9eb0145639a4a89c7?permalink_comment_id=4854416#file-demo-gif)
